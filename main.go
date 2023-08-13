@@ -4,9 +4,10 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"insomnia_bug/grpc/pb"
 	"log"
 	"net"
+
+	"github.com/krixlion/insomnia_bug/grpc/pb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

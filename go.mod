@@ -1,4 +1,4 @@
-module insomnia_bug
+module github.com/krixlion/insomnia_bug
 
 go 1.20
 
