@@ -27,7 +27,8 @@ A gRPC call goes through and either succeeds or a descriptive error is returned.
 Error `14 No connection established` is returned with no further messages or logs.
 
 ## Steps to reproduce
-1. Create a new collection and a gRPC request.
-2. Prefix the url with `grpcs://`, in this case `grpcs://localhost:50055`.
-3. Add the CA cert (`ca.cert`) in the collection settings.
-4. Send the request.
+1. Set up basic gRPC server with server-side TLS configured using [my repo](https://github.com/krixlion/insomnia_bug).
+2. Create a new collection and a gRPC request.
+3. Prefix the url with `grpcs://` e.g `grpcs://localhost:50055`.
+4. Add the CA cert in the collection settings.
+5. Send the request.
